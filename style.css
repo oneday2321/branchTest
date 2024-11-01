@@ -31,3 +31,69 @@ body {
     color: dark green;
     margin-bottom: 5px;
 }
+
+.dish {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.dish h1 {
+    font-size: 2em;
+    color: black;
+}
+
+.dish h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.dish p {
+    color: #666;
+}
+
+.button-recipe {
+    background-color: yellow;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-recipe:hover {
+    background-color: orange;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.recipe-content {
+    margin-top: 20px;
+}
+
+.close-modal {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.close-modal:hover {
+    background-color: darkred;
+}

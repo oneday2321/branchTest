@@ -7,76 +7,33 @@
                 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>Dongpo Pork</h1>
+<div class="dish">
+    <h1>Dongpo Pork</h1>
     <h2>History</h2>
     <p>Dongpo Pork, or Dongpo Rou, is a classic dish from Hangzhou, China. Named after the famous poet and statesman Su Dongpo, the dish features braised pork belly that is tender and flavorful.</p>
-    <button style="background-color: yellow;" onclick="openModal()">Show Recipe</button>
-    <button id="btn-白菜">开水白菜</button>
-    <button id="btn-汉堡包">汉堡包</button>
-    <div id="recipeModal" style="display:none;">
+    <button class="button-recipe" onclick="openModal('dongpo-pork')">Show Recipe</button>
+</div>
+<div class="dish">
+    <h1>Boiled Cabbage</h1>
+    <h2>History</h2>
+    <p>Boiled cabbage is a simple and nutritious dish...</p>
+    <button class="button-recipe" onclick="openModal('boiled-cabbage')">Show Recipe</button>
+</div>
+<div class="dish">
+    <h1>汉堡包 (Hamburger)</h1>
+    <h2>History</h2>
+    <p>The hamburger, often simply referred to as a burger...</p>
+    <button class="button-recipe" onclick="openModal('hamburger')">Show Recipe</button>
+</div>
+    <div id="recipeModal" class="modal" style="display:none;">
         <h2>Recipe</h2>
-        <p>Ingredients:</p>
-        <ul>
-            <li>1 kg pork belly</li>
-            <li>100 ml Shaoxing wine</li>
-            <li>100 g rock sugar</li>
-            <li>4-5 slices ginger</li>
-            <li>2-3 green onions</li>
-            <li>Soy sauce to taste</li>
-            <li>Water</li>
-        </ul>
-        <p>Instructions:</p>
-        <ol>
-            <li>Blanch the pork belly in boiling water for a few minutes, then drain.</li>
-            <li>In a pot, heat a bit of oil and dissolve the rock sugar to create caramel.</li>
-            <li>Add the pork belly to the pot, then add the Shaoxing wine, ginger, and green onions.</li>
-            <li>Pour in enough water to cover the pork, then add soy sauce to taste.</li>
-            <li>Cover and simmer on low heat for about 1.5 to 2 hours until the pork is tender.</li>
-            <li>Serve hot, preferably with steamed rice.</li>
-        </ol>
+        <div class="recipe-content" id="recipe-content">
+            <!-- Recipe details to be populated dynamically -->
+        </div>
+        <button class="close-modal" onclick="closeModal()">Close</button>
     </div>
-        <script src="script.js"></script>
-        <h1>Boiled Cabbage</h1>
-        <h2>History</h2>
-        <p>Boiled cabbage is a simple and nutritious dish that has been a staple in many cultures for centuries. Its simplicity and ease of preparation make it a popular dish for everyday meals.</p>
-        <h2>Recipe</h2>
-        <p>Ingredients:</p>
-        <ul>
-            <li>1 head of cabbage, chopped</li>
-            <li>4 cups of water</li>
-            <li>2 tablespoons of salt</li>
-            <li>1 tablespoon of butter</li>
-            <li>Optional: black pepper, to taste</li>
-        </ul>
-        <p>Instructions:</p>
-        <ol>
-            <li>Bring a large pot of water to a boil and add the salt.</li>
-            <li>Add the chopped cabbage to the boiling water.</li>
-            <li>Reduce the heat and simmer for about 15-20 minutes, or until the cabbage is tender.</li>
-            <li>Drain the cabbage and return it to the pot.</li>
-            <li>Add butter and stir until melted and well combined.</li>
-            <li>Season with black pepper, if desired, and serve hot.</li>
-        </ol>
-        <h1>汉堡包 (Hamburger)</h1>
-            <h2>History</h2>
-            <p>The hamburger, often simply referred to as a burger, is a staple of Western fast food. Its origins can be traced back to the late 19th century, with the invention credited to various individuals from different parts of the United States. The hamburger gained significant popularity in the 20th century, becoming a global fast-food icon.</p>
-            <h2>Recipe</h2>
-            <p>Ingredients:</p>
-            <ul>
-                <li>500 g ground beef</li>
-                <li>1/2 teaspoon salt</li>
-                <li>1/2 teaspoon pepper</li>
-                <li>4 burger buns</li>
-                <li>Optional toppings: lettuce, tomato, onion, cheese, pickles, ketchup, mustard</li>
-            </ul>
-            <p>Instructions:</p>
-            <ol>
-                <li>In a bowl, combine the ground beef, salt, and pepper. Mix well.</li>
-                <li>Shape the mixture into 4 patties.</li>
-                <li>Preheat a grill or skillet over medium heat.</li>
-                <li>Cook the patties for about 4-5 minutes on each side, or until they reach your desired degree of doneness.</li>
-                <li>Toast the burger buns on the grill or in the skillet until lightly browned.</li>
-                <li>Assemble the burgers with your desired toppings and serve hot.</li>
-            </ol>
+    <script src="script.js"></script>
+
+
 </body>
 </html>
