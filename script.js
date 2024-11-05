@@ -12,11 +12,19 @@ function openModal(dish) {
 
     content.innerHTML = recipes[dish];
     modal.style.display = 'block';
+
+    setTimeout(function() {
+        closeModal();
+    }, 5000);
 }
 
 function closeModal() {
     var modal = document.getElementById('recipeModal');
     modal.style.display = 'none';
+
+    if (modalTimeout) {
+        clearTimeout(modalTimeout);
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
