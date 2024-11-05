@@ -1,0 +1,16 @@
+The main function of this project is to create a pure JavaScript application that presents an interactive recipe for Dongpo Pork. The application includes several key features:
+
+1. **Responsive Design**: The project uses HTML and CSS to ensure that the page is responsive and looks good on various screen sizes.
+主要功能1. **响应式设计**：该项目使用HTML和CSS确保页面在各种屏幕尺寸下都能良好显示。
+
+2. **Interactive Elements**: The project includes interactive elements such as buttons and modals to enhance user experience.
+主要功能2. **交互元素**：该项目包括按钮和模态框等交互元素，以增强用户体验。
+
+3. **Dynamic Content Loading**: JavaScript is used to dynamically load and manipulate content on the webpage, providing a more engaging experience for users.
+主要功能3. **动态内容加载**：该项目使用JavaScript动态加载和操作网页内容，为用户提供更吸引人的体验。
+
+4. **Local Development Server**: A local development server using Browser Sync to provide live reloading and a streamlined development workflow.
+主要功能4. **本地开发服务器**：该项目使用Browser Sync的本地开发服务器，提供实时重新加载功能和简化的开发工作流程。
+
+Overall, this project aims to combine modern web development techniques with a user-friendly interface to showcase the recipe for Dongpo Pork in an engaging and interactive manner.
+总体而言，该项目旨在结合现代Web开发技术与用户友好的界面，以一种吸引人且互动的方式展示东坡肉食谱。
