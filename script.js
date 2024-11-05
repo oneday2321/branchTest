@@ -12,6 +12,7 @@ function openModal(dish) {
 
     content.innerHTML = recipes[dish];
     modal.style.display = 'block';
+    setTimeout(closeModal, 5000);
 }
 
 function closeModal() {

@@ -1,16 +1,76 @@
+# Dongpo Pork Recipe Project
+
 The main function of this project is to create a pure JavaScript application that presents an interactive recipe for Dongpo Pork. The application includes several key features:
 
+## Key Features
+
 1. **Responsive Design**: The project uses HTML and CSS to ensure that the page is responsive and looks good on various screen sizes.
-主要功能1. **响应式设计**：该项目使用HTML和CSS确保页面在各种屏幕尺寸下都能良好显示。
+
+   **主要功能1. 响应式设计**：该项目使用HTML和CSS确保页面在各种屏幕尺寸下都能良好显示。
 
 2. **Interactive Elements**: The project includes interactive elements such as buttons and modals to enhance user experience.
-主要功能2. **交互元素**：该项目包括按钮和模态框等交互元素，以增强用户体验。
+
+   **主要功能2. 交互元素**：该项目包括按钮和模态框等交互元素，以增强用户体验。
 
 3. **Dynamic Content Loading**: JavaScript is used to dynamically load and manipulate content on the webpage, providing a more engaging experience for users.
-主要功能3. **动态内容加载**：该项目使用JavaScript动态加载和操作网页内容，为用户提供更吸引人的体验。
+
+   **主要功能3. 动态内容加载**：该项目使用JavaScript动态加载和操作网页内容，为用户提供更吸引人的体验。
 
 4. **Local Development Server**: A local development server using Browser Sync to provide live reloading and a streamlined development workflow.
-主要功能4. **本地开发服务器**：该项目使用Browser Sync的本地开发服务器，提供实时重新加载功能和简化的开发工作流程。
+
+   **主要功能4. 本地开发服务器**：该项目使用Browser Sync的本地开发服务器，提供实时重新加载功能和简化的开发工作流程。
 
 Overall, this project aims to combine modern web development techniques with a user-friendly interface to showcase the recipe for Dongpo Pork in an engaging and interactive manner.
+
 总体而言，该项目旨在结合现代Web开发技术与用户友好的界面，以一种吸引人且互动的方式展示东坡肉食谱。
+
+## 回锅肉 Recipe
+
+### Ingredients
+- 500g pork belly
+- 1 green pepper
+- 1 red pepper
+- 2 tablespoons of oil
+- 2 tablespoons of soy sauce
+- 1 tablespoon of fermented black beans
+- 2 cloves garlic
+- 1 piece of ginger
+- 3 tablespoons of water
+
+### Preparation Steps
+1. Boil the pork belly for 20 minutes, then let it cool and slice it thinly.
+2. Heat oil in a pan and stir-fry the garlic and ginger until fragrant.
+3. Add the pork belly slices and stir-fry until they start to brown.
+4. Add the soy sauce, fermented black beans, and water, and mix well.
+5. Add the green and red peppers and stir-fry for another 5 minutes.
+6. Serve hot.
+
+### Notes
+- Make sure to slice the pork belly as thin as possible for the best texture.
+- Adjust the amount of soy sauce and black beans according to your taste preference.
+
+## 东坡肉 Recipe
+
+### Ingredients
+- 500g pork belly
+- 1 green onion
+- 2 tablespoons of oil
+- 2 tablespoons of soy sauce
+- 1/4 cup of Chinese rice wine
+- 4 tablespoons of sugar
+- 2 cloves garlic
+- 1 piece of ginger
+- 1 star anise
+- 3 tablespoons of water
+
+### Preparation Steps
+1. Blanch the pork belly in boiling water for 5 minutes, then remove and let it cool. Cut into 2-inch squares.
+2. Heat oil in a pot and add the sugar, stirring until it melts and turns golden brown.
+3. Add the pork belly pieces to the pot and brown them on all sides.
+4. Add the soy sauce, Chinese rice wine, and water, and bring to a boil.
+5. Add the garlic, ginger, green onion, and star anise. Reduce heat to low, cover, and simmer for 1 hour until the meat is tender and the sauce is thick.
+6. Serve hot, garnished with additional green onion if desired.
+
+### Notes
+- For an authentic flavor, use Chinese rice wine instead of other cooking wines.
+- Adjust the amount of sugar for a sweeter or less sweet dish.
