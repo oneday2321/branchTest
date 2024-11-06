@@ -97,3 +97,45 @@ body {
 .close-modal:hover {
     background-color: darkred;
 }
+
+#huiguorou-modal {
+    display: none;
+}
+
+#huiguorou-modal .modal-content {
+    max-width: 500px;
+    margin: auto;
+}
+
+#huiguorou-modal h2 {
+    font-size: 1.8em;
+    color: dark green;
+    margin-bottom: 10px;
+}
+
+#huiguorou-modal h3 {
+    font-size: 1.5em;
+    color: dark green;
+    margin-bottom: 5px;
+}
+
+#huiguorou-modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#huiguorou-modal ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: dark green;
+}
+
+#huiguorou-modal ol {
+    padding-left: 20px;
+}
+
+#huiguorou-modal ol li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: dark green;
+}
