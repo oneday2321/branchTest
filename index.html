@@ -25,16 +25,23 @@
     <p>The hamburger, often simply referred to as a burger...</p>
     <button class="button-recipe" onclick="openModal('hamburger')">Show Recipe</button>
 </div>
+<div class="dish">
+    <h1>Egg Fried Rice</h1>
+    <h2>History</h2>
+    <p>Egg Fried Rice is a popular dish in Chinese cuisine, known for its tasty combination of rice and eggs...</p>
+    <button class="button-recipe" onclick="openModal('egg-fried-rice')">Show Recipe</button>
+</div>
+
+<div id="recipeModal" class="modal" style="display:none;">
+    <h2>Recipe</h2>
+    <div class="recipe-content" id="recipe-content">
+        <!-- Recipe details to be populated dynamically -->
+    </div>
+</div>
+
 <div class="link-container">
     <a href="mindmap.html" class="mindmap-link">View Recipe Mind Map</a>
 </div>
-    <div id="recipeModal" class="modal" style="display:none;">
-        <h2>Recipe</h2>
-        <div class="recipe-content" id="recipe-content">
-            <!-- Recipe details to be populated dynamically -->
-        </div>
-    </div>
-        <div class="dish">
             <h1>回锅肉</h1>
             <h2>History</h2>
             <p>回锅肉是经典的四川菜。</p>
@@ -108,7 +115,42 @@
                     </ol>
                 </div>
             </div>
-    <script src="script.js"></script>
+<div id="egg-fried-rice-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('egg-fried-rice-modal')">&times;</span>
+        <h2>Egg Fried Rice Recipe</h2>
+        <h3>Ingredients</h3>
+        <ul>
+            <li>Rice: 2 cups (cooked)</li>
+            <li>Eggs: 3 large</li>
+            <li>Green onions: 2 (chopped)</li>
+            <li>Carrot: 1 (diced)</li>
+            <li>Peas: 1/2 cup</li>
+            <li>Soy sauce: 2 tablespoons</li>
+            <li>Vegetable oil: 2 tablespoons</li>
+            <li>Salt: to taste</li>
+            <li>Pepper: to taste</li>
+        </ul>
+        <h3>Directions</h3>
+        <ol>
+            <li>Heat the vegetable oil in a large pan or wok over medium heat.</li>
+            <li>Add the diced carrot and peas, and cook for 2-3 minutes until tender.</li>
+            <li>Beat the eggs and add them to the pan, scrambling until fully cooked.</li>
+            <li>Add the cooked rice to the pan, stirring to combine with the vegetables and eggs.</li>
+            <li>Pour the soy sauce over the rice, and season with salt and pepper to taste.</li>
+            <li>Continue to stir-fry for another 2-3 minutes until everything is well mixed and heated through.</li>
+            <li>Garnish with chopped green onions before serving.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="dish">
+    <h1>Egg Fried Rice</h1>
+    <h2>History</h2>
+    <p>Egg Fried Rice is a popular dish in Chinese cuisine, known for its tasty combination of rice and eggs...</p>
+    <button class="button-recipe" onclick="openModal('egg-fried-rice')">Show Recipe</button>
+</div>
+<script src="script.js"></script>
 
 </body>
 </html>
