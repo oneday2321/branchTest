@@ -1,1 +1,16 @@
 .git/
+.DS_Store
+Thumbs.db
+.nfs*
+node_modules/
+.pnpm-store/
+dist/
+*.log
+*.tmp
+*.bak
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+npm-debug.log*
